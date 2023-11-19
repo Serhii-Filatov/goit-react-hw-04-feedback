@@ -1,0 +1,23 @@
+.btnBlock {
+  display: flex;
+  width: 400px;
+}
+
+.btn {
+  margin-left: 20px;
+  padding: 5px 30px;
+  font-size: 18px;
+  text-transform: capitalize;
+  background-color: transparent;
+  border: solid 1px silver;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #ebebeb;
+}
+
+.btn:active {
+  background-color: #c8c8c8;
+  color: #828282;
+}
